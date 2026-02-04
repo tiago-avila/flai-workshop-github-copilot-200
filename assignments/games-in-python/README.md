@@ -1,19 +1,44 @@
 
-# 🎮 Hangman Game Challenge
+# 🎮 Assignment: Hangman Game in Python
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+Build a classic Hangman game using Python. Practice string manipulation, loops, conditionals, and random selection while creating an interactive word-guessing game.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ Task 1: Set Up the Game
 
-## ✅ Must Have's
+#### Description
+Create a Python script that sets up the basic structure for the Hangman game, including a list of possible words and variables to track the game state.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+Completed program should:
+- Define a list of at least 5 possible words
+- Randomly select a word for the player to guess
+- Initialize variables to track guessed letters and remaining attempts
+
+### 🛠️ Task 2: Implement Game Logic
+
+#### Description
+Write the main game loop that allows the player to guess letters, updates the display, and checks for win/lose conditions.
+
+#### Requirements
+Completed program should:
+- Prompt the player to guess one letter at a time
+- Show the current progress (e.g., _ a _ _ m a n)
+- Track and display incorrect guesses remaining
+- End the game with a win message if the word is guessed
+- End the game with a lose message if attempts run out
+
+---
+
+**Learning Objectives:**
+- Practice using strings, loops, and conditionals in Python
+- Work with user input and random selection
+- Build a complete, interactive program
+
+**Extension Ideas:**
+- Add ASCII art for the hangman
+- Allow the player to play multiple rounds
+- Keep track of the player’s score
